@@ -1,0 +1,41 @@
+{
+  "mapping": [
+    {
+      "source": "ERP-A01 保温杯-不锈钢",
+      "target": "餐饮具/水杯/保温杯",
+      "confidence": "高",
+      "basis": "同名命中"
+    },
+    {
+      "source": "ERP-A02 保温杯-玻璃内胆",
+      "target": "餐饮具/水杯/保温杯",
+      "confidence": "中",
+      "basis": "同义词「保温杯」近似命中"
+    },
+    {
+      "source": "ERP-A03 水杯-塑料",
+      "target": "餐饮具/水杯/儿童水杯",
+      "confidence": "中",
+      "basis": "同义词「儿童水杯」近似命中"
+    },
+    {
+      "source": "ERP-A04 马克杯-陶瓷",
+      "target": "餐饮具/水杯/马克杯",
+      "confidence": "高",
+      "basis": "同名命中"
+    },
+    {
+      "source": "ERP-A05 小家电-衣物护理",
+      "target": "家用电器/生活电器/干衣烘鞋机",
+      "confidence": "高",
+      "basis": "同名命中"
+    },
+    {
+      "source": "ERP-A06 小家电-厨房料理",
+      "target": "家用电器/生活电器/料理机及配件",
+      "confidence": "中",
+      "basis": "同义词「料理机」近似命中"
+    }
+  ],
+  "count": 6
+}

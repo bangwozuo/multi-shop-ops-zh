@@ -1,0 +1,11 @@
+{
+  "flow": "spec-category-mapping-flow",
+  "steps": [
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\spec-category-mapping-flow\\out\\step1_映射结果.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\spec-category-mapping-flow\\out\\step2_更新明细.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\spec-category-mapping-flow\\out\\映射表.csv",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\spec-category-mapping-flow\\out\\映射表更新.md"
+  ],
+  "summary": "映射 6 条：直接生效 3、需人工确认 3、待建目 0",
+  "note": "映射与变更类型由本脚本判定；建目申请措辞由模型按 prompt.txt 完成"
+}

@@ -1,0 +1,11 @@
+{
+  "flow": "competitor-price-patrol-flow",
+  "steps": [
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\competitor-price-patrol-flow\\out\\step1_快照.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\competitor-price-patrol-flow\\out\\step2_巡检.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\competitor-price-patrol-flow\\out\\异动提醒.md",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\competitor-price-patrol-flow\\out\\预警清单.csv"
+  ],
+  "summary": "巡检 3 个 SKU，异动 2 条",
+  "note": "数值由本脚本判定；动机解读与跟价策略由模型按 prompt.txt 完成"
+}

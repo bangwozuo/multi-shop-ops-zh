@@ -1,0 +1,11 @@
+{
+  "flow": "listing-multiplatform-flow",
+  "steps": [
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\listing-multiplatform-flow\\out\\step1_类目映射.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\listing-multiplatform-flow\\out\\step2_标题改写.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\listing-multiplatform-flow\\out\\上架草稿.md",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\listing-multiplatform-flow\\out\\类目映射表.csv"
+  ],
+  "summary": "映射 2 个平台类目，产出 3 条达标标题",
+  "note": "字数与映射由本脚本判定；卖点措辞润色由模型按 prompt.txt 完成"
+}

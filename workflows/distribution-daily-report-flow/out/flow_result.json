@@ -1,0 +1,12 @@
+{
+  "flow": "distribution-daily-report-flow",
+  "steps": [
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\distribution-daily-report-flow\\out\\step1_铺货盘点.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\distribution-daily-report-flow\\out\\step2_库存判定.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\distribution-daily-report-flow\\out\\step3_价格对比.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\distribution-daily-report-flow\\out\\铺货日报.md",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\distribution-daily-report-flow\\out\\日报数据.csv"
+  ],
+  "summary": "铺货 3 店、库存预警 3 条、价格对比 3 个 SKU，日报已生成",
+  "note": "数值由本脚本汇总；日报结论措辞由模型按 prompt.txt 完成"
+}

@@ -1,0 +1,29 @@
+{
+  "alert_count": 3,
+  "alerts": [
+    {
+      "sku": "SKU-1001 316不锈钢保温杯",
+      "level": "紧急",
+      "type": "超卖风险",
+      "net": -15,
+      "avail": 45,
+      "water": 50
+    },
+    {
+      "sku": "SKU-1003 陶瓷马克杯",
+      "level": "高",
+      "type": "低库存预警",
+      "net": 3,
+      "avail": 18,
+      "water": 30
+    },
+    {
+      "sku": "SKU-1004 便携榨汁杯",
+      "level": "紧急",
+      "type": "超卖风险",
+      "net": -5,
+      "avail": 0,
+      "water": 20
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "mapping": [
+    {
+      "platform": "抖店",
+      "source": "餐饮具/杯具/保温杯",
+      "target": "餐饮具/水杯/保温杯",
+      "basis": "叶子类目同名命中",
+      "confidence": "高"
+    },
+    {
+      "platform": "拼多多",
+      "source": "餐饮具/杯具/保温杯",
+      "target": "家居用品/水杯/保温杯",
+      "basis": "叶子类目同名命中",
+      "confidence": "高"
+    }
+  ],
+  "count": 2
+}

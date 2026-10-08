@@ -1,0 +1,26 @@
+{
+  "titles": [
+    {
+      "platform": "淘宝",
+      "title": "晨露316不锈钢保温杯500ml大容量保温杯真空便携",
+      "chars": 26,
+      "limit": 30,
+      "compliance": "未命中极限词"
+    },
+    {
+      "platform": "抖店",
+      "title": "晨露316不锈钢保温杯500ml｜316不锈钢内胆办公便携",
+      "chars": 29,
+      "limit": 30,
+      "compliance": "未命中极限词"
+    },
+    {
+      "platform": "拼多多",
+      "title": "晨露316不锈钢保温杯500ml大容量学生办公保温杯真空便携男女士",
+      "chars": 33,
+      "limit": 60,
+      "compliance": "未命中极限词"
+    }
+  ],
+  "warnings": []
+}

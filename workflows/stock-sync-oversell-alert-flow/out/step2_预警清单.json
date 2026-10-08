@@ -1,0 +1,47 @@
+{
+  "water_calc": {
+    "sku": "SKU-1002 玻璃双层水杯450ml",
+    "rate": 40.0,
+    "cycle_sales": 280,
+    "safety": 336,
+    "cover_days": 3,
+    "gap": 40,
+    "order_qty": 296
+  },
+  "alert_count": 3,
+  "alerts": [
+    {
+      "sku": "SKU-1001 316不锈钢保温杯",
+      "level": "紧急",
+      "type": "超卖风险",
+      "avail": 45,
+      "transit": 60,
+      "net": -15,
+      "water": 50,
+      "dev": -5,
+      "rule": "可用-在途 < 0 判超卖"
+    },
+    {
+      "sku": "SKU-1003 陶瓷马克杯",
+      "level": "高",
+      "type": "低库存预警",
+      "avail": 18,
+      "transit": 15,
+      "net": 3,
+      "water": 30,
+      "dev": -12,
+      "rule": "可用 < 安全水位判低库存"
+    },
+    {
+      "sku": "SKU-1004 便携榨汁杯",
+      "level": "紧急",
+      "type": "超卖风险",
+      "avail": 0,
+      "transit": 5,
+      "net": -5,
+      "water": 20,
+      "dev": -20,
+      "rule": "可用-在途 < 0 判超卖"
+    }
+  ]
+}

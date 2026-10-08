@@ -1,0 +1,11 @@
+{
+  "flow": "stock-sync-oversell-alert-flow",
+  "steps": [
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\stock-sync-oversell-alert-flow\\out\\step1_水位测算.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\stock-sync-oversell-alert-flow\\out\\step2_预警清单.json",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\stock-sync-oversell-alert-flow\\out\\预警推送.md",
+    "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\multi-shop-ops-zh\\workflows\\stock-sync-oversell-alert-flow\\out\\预警清单.csv"
+  ],
+  "summary": "水位测算完成（建议下单 296 件），预警 3 条（紧急置顶）",
+  "note": "数值由本脚本判定；补货决策与推送措辞由模型按 prompt.txt 完成"
+}
