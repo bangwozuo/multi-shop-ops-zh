@@ -1,0 +1,46 @@
+{
+  "workflow_id": "de_ecom_04_wf02",
+  "name": "规格/类目映射维护",
+  "type": "composite",
+  "skill_refs": [
+    "de_ecom_04_sk01"
+  ],
+  "input": {
+    "type": "object",
+    "required": [
+      "input"
+    ],
+    "properties": {
+      "input": {
+        "type": "string",
+        "description": "工作流初始输入，由触发条件提供"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "summary",
+      "steps",
+      "deliverable"
+    ],
+    "properties": {
+      "summary": {
+        "type": "string",
+        "description": "执行摘要"
+      },
+      "steps": {
+        "type": "string",
+        "description": "分步结果"
+      },
+      "deliverable": {
+        "type": "string",
+        "description": "最终交付物"
+      }
+    }
+  },
+  "constraints": {
+    "ai_label_required": true,
+    "human_review_required": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "skill_id": "de_ecom_04_sk01",
+  "name": "类目属性映射",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "source_set",
+      "target_set"
+    ],
+    "properties": {
+      "source_set": {
+        "type": "string",
+        "description": "源集合：需要被映射的条目"
+      },
+      "target_set": {
+        "type": "string",
+        "description": "目标集合：映射的目标体系或清单"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "mapping",
+      "unmatched",
+      "suggestions"
+    ],
+    "properties": {
+      "mapping": {
+        "type": "array",
+        "description": "逐条给出对应关系",
+        "items": {
+          "type": "object",
+          "properties": {
+            "源条目": {
+              "type": "string"
+            },
+            "目标条目": {
+              "type": "string"
+            },
+            "匹配依据": {
+              "type": "string"
+            },
+            "置信度": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "unmatched": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "两侧无法对应的条目"
+      },
+      "suggestions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "对未匹配项的建议做法"
+      }
+    },
+    "x-rendered-from": "capability:match"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "skill_id": "de_ecom_04_sk02",
+  "name": "标题多平台改写",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "product_info"
+    ],
+    "properties": {
+      "product_info": {
+        "type": "string",
+        "description": "商品信息：品名、规格、卖点、目标关键词"
+      },
+      "platform": {
+        "type": "string",
+        "description": "目标平台：淘宝/抖店/拼多多/小红书等（可选）"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "title",
+      "selling_points",
+      "keywords",
+      "compliance_scan"
+    ],
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "含主关键词的标题，标注字数"
+      },
+      "selling_points": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "按优先级排列的具体卖点"
+      },
+      "keywords": {
+        "type": "array",
+        "description": "关键词与投放位置",
+        "items": {
+          "type": "object",
+          "properties": {
+            "关键词": {
+              "type": "string"
+            },
+            "类型": {
+              "type": "string"
+            },
+            "建议位置": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "compliance_scan": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "极限词、违禁词检查结果"
+      }
+    },
+    "x-rendered-from": "capability:optimize_listing"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}

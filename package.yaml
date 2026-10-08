@@ -1,0 +1,49 @@
+name: 多店运营官
+repo: bangwozuo/multi-shop-ops-zh
+legacy_name: 多平台运营助理·小铺
+version: 0.2.0
+asset_type: prompt-only
+stage: P1
+complexity: M-L（连接器最多）
+group: 电商小卖家
+runtime_dependencies: none
+api_key_required: false
+demand_ids:
+  - D02
+  - D12
+  - D13
+
+workflows:
+  - name: 一稿多平台 Listing 生成
+    id: de_ecom_04_wf01
+  - name: 规格/类目映射维护
+    id: de_ecom_04_wf02
+  - name: 库存同步与超卖预警
+    id: de_ecom_04_wf03
+  - name: 竞品价格巡检
+    id: de_ecom_04_wf04
+  - name: 铺货日报生成
+    id: de_ecom_04_wf05
+
+skills:
+  - id: category-attribute-mapping
+    name: 类目属性映射
+    family: 
+  - id: title-multiplatform-rewrite
+    name: 标题多平台改写
+    family: 
+  - id: stock-level-calculate
+    name: 库存水位计算
+    family: 
+  - id: oversell-alert
+    name: 超卖预警
+    family: 
+  - id: competitor-price-patrol
+    name: 竞品价格巡检
+    family: 
+
+compliance:
+  ai_label_required: true
+  human_review_required: true
+  forbidden_words_check: true
+  official_api_only: true

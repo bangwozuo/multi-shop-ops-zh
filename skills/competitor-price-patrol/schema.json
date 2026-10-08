@@ -1,0 +1,91 @@
+{
+  "skill_id": "de_ecom_04_sk05",
+  "name": "竞品价格巡检",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "metrics"
+    ],
+    "properties": {
+      "metrics": {
+        "type": "string",
+        "description": "当前指标数据：被监测的指标当前值"
+      },
+      "baseline": {
+        "type": "string",
+        "description": "基线：历史同期值 / 目标值 / 阈值线（可选，缺省用环比）"
+      },
+      "rules": {
+        "type": "string",
+        "description": "判定规则：阈值与趋势规则（可选）"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "alerts",
+      "no_alert",
+      "need_confirm"
+    ],
+    "properties": {
+      "alerts": {
+        "type": "array",
+        "description": "命中的异常及级别",
+        "items": {
+          "type": "object",
+          "properties": {
+            "#": {
+              "type": "string"
+            },
+            "指标": {
+              "type": "string"
+            },
+            "当前值": {
+              "type": "string"
+            },
+            "基线": {
+              "type": "string"
+            },
+            "偏离": {
+              "type": "string"
+            },
+            "级别": {
+              "type": "string"
+            },
+            "判定规则": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "no_alert": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "已检查但正常的指标"
+      },
+      "need_confirm": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "数据不足或规则未覆盖的部分"
+      }
+    },
+    "x-rendered-from": "capability:detect"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}

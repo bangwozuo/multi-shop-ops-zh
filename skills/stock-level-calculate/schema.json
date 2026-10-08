@@ -1,0 +1,75 @@
+{
+  "skill_id": "de_ecom_04_sk03",
+  "name": "库存水位计算",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "params"
+    ],
+    "properties": {
+      "params": {
+        "type": "string",
+        "description": "输入参数：测算所需的各项数值"
+      },
+      "rules": {
+        "type": "string",
+        "description": "计算规则：费率、扣点、公式等（可选，缺省由你声明）"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "result",
+      "breakdown",
+      "assumption"
+    ],
+    "properties": {
+      "result": {
+        "type": "string",
+        "description": "关键结果数值，标注单位"
+      },
+      "breakdown": {
+        "type": "array",
+        "description": "逐项拆解",
+        "items": {
+          "type": "object",
+          "properties": {
+            "项目": {
+              "type": "string"
+            },
+            "计算式": {
+              "type": "string"
+            },
+            "结果": {
+              "type": "string"
+            },
+            "说明": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "assumption": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "所用假设；关键参数变动时结果如何变化"
+      }
+    },
+    "x-rendered-from": "capability:calculate"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}

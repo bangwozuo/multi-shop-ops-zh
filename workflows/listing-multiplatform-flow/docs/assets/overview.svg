@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 236" width="830" height="236" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">
+<rect width="830" height="236" fill="#0f1117"/>
+<text x="28" y="44" fill="#e8eaf0" font-size="19" font-weight="600">一稿多平台 Listing 生成</text>
+<text x="28" y="68" fill="#9aa3b5" font-size="12.5">复合技能（工作流） ｜ 多店运营官 ｜ listing-multiplatform-flow</text>
+<rect x="28" y="108" width="168" height="66" rx="10" fill="#171a23" stroke="#0ea5e9" stroke-width="1.2"/>
+<text x="112.0" y="146" fill="#e8eaf0" font-size="13" text-anchor="middle">输入</text>
+<text x="112.0" y="164" fill="#0ea5e9" font-size="10.5" text-anchor="middle">STEP 1</text>
+<path d="M 204 141.0 L 222 141.0" stroke="#0ea5e9" stroke-width="1.6" marker-end="url(#arw)"/>
+<rect x="230" y="108" width="168" height="66" rx="10" fill="#171a23" stroke="#0ea5e9" stroke-width="1.2"/>
+<text x="314.0" y="146" fill="#e8eaf0" font-size="13" text-anchor="middle">类目属性映射</text>
+<text x="314.0" y="164" fill="#0ea5e9" font-size="10.5" text-anchor="middle">STEP 2</text>
+<path d="M 406 141.0 L 424 141.0" stroke="#0ea5e9" stroke-width="1.6" marker-end="url(#arw)"/>
+<rect x="432" y="108" width="168" height="66" rx="10" fill="#171a23" stroke="#0ea5e9" stroke-width="1.2"/>
+<text x="516.0" y="146" fill="#e8eaf0" font-size="13" text-anchor="middle">标题多平台改写</text>
+<text x="516.0" y="164" fill="#0ea5e9" font-size="10.5" text-anchor="middle">STEP 3</text>
+<path d="M 608 141.0 L 626 141.0" stroke="#0ea5e9" stroke-width="1.6" marker-end="url(#arw)"/>
+<rect x="634" y="108" width="168" height="66" rx="10" fill="#171a23" stroke="#0ea5e9" stroke-width="1.2"/>
+<text x="718.0" y="146" fill="#e8eaf0" font-size="13" text-anchor="middle">输出</text>
+<text x="718.0" y="164" fill="#0ea5e9" font-size="10.5" text-anchor="middle">STEP 4</text>
+<defs><marker id="arw" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#0ea5e9"/></marker></defs>
+<text x="28" y="206" fill="#6b7280" font-size="11">纯提示词资产 ｜ 零 API Key ｜ 零运行时依赖</text>
+</svg>
