@@ -4,8 +4,7 @@
 
 ![多店运营官 · 动态演示](docs/assets/hero.gif)
 
-*▲ 实时演示（自动循环）· [▶ 观看完整版合集视频](docs/demo.mp4)*
-
+*▲ 真实执行录播（自动循环播放）· [▶ 观看完整版合集视频](docs/demo.mp4)*
 
 [![Stage](https://img.shields.io/badge/stage-P1-orange)](https://github.com/bangwozuo)
 [![Asset](https://img.shields.io/badge/asset-prompt--only-blueviolet)](#资产形态)
@@ -113,11 +112,11 @@ multi-shop-ops-zh/
 
 | # | 技能 | 能力族 | 复杂度 | 提示词 | 文档 |
 |---|------|--------|--------|--------|------|
-| 1 | 类目属性映射 | — | `M` | [prompt.txt](skills/category-attribute-mapping/prompt.txt) | [docs](skills/category-attribute-mapping/docs/) |
-| 2 | 标题多平台改写 | 上架优化 | `S` | [prompt.txt](skills/title-multiplatform-rewrite/prompt.txt) | [docs](skills/title-multiplatform-rewrite/docs/) |
-| 3 | 库存水位计算 | 测算评估 | `M` | [prompt.txt](skills/stock-level-calculate/prompt.txt) | [docs](skills/stock-level-calculate/docs/) |
-| 4 | 超卖预警 | — | `S` | [prompt.txt](skills/oversell-alert/prompt.txt) | [docs](skills/oversell-alert/docs/) |
-| 5 | 竞品价格巡检 | — | `M` | [prompt.txt](skills/competitor-price-patrol/prompt.txt) | [docs](skills/competitor-price-patrol/docs/) |
+| 1 | 类目属性映射 | 映射与配对 | `M` | [prompt.txt](skills/category-attribute-mapping/prompt.txt) | [docs](skills/category-attribute-mapping/docs/) |
+| 2 | 标题多平台改写 | 上架与标题优化 | `S` | [prompt.txt](skills/title-multiplatform-rewrite/prompt.txt) | [docs](skills/title-multiplatform-rewrite/docs/) |
+| 3 | 库存水位计算 | 测算与评估 | `M` | [prompt.txt](skills/stock-level-calculate/prompt.txt) | [docs](skills/stock-level-calculate/docs/) |
+| 4 | 超卖预警 | 异动检测与预警 | `S` | [prompt.txt](skills/oversell-alert/prompt.txt) | [docs](skills/oversell-alert/docs/) |
+| 5 | 竞品价格巡检 | 异动检测与预警 | `M` | [prompt.txt](skills/competitor-price-patrol/prompt.txt) | [docs](skills/competitor-price-patrol/docs/) |
 
 ## 工作流清单（5 条）
 
