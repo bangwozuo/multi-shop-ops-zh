@@ -110,23 +110,23 @@ multi-shop-ops-zh/
 
 ## 技能清单（5 个）
 
-| # | 技能 | 能力族 | 复杂度 | 提示词 | 文档 |
-|---|------|--------|--------|--------|------|
-| 1 | 类目属性映射 | 映射与配对 | `M` | [prompt.txt](skills/category-attribute-mapping/prompt.txt) | [docs](skills/category-attribute-mapping/docs/) |
-| 2 | 标题多平台改写 | 上架与标题优化 | `S` | [prompt.txt](skills/title-multiplatform-rewrite/prompt.txt) | [docs](skills/title-multiplatform-rewrite/docs/) |
-| 3 | 库存水位计算 | 测算与评估 | `M` | [prompt.txt](skills/stock-level-calculate/prompt.txt) | [docs](skills/stock-level-calculate/docs/) |
-| 4 | 超卖预警 | 异动检测与预警 | `S` | [prompt.txt](skills/oversell-alert/prompt.txt) | [docs](skills/oversell-alert/docs/) |
-| 5 | 竞品价格巡检 | 异动检测与预警 | `M` | [prompt.txt](skills/competitor-price-patrol/prompt.txt) | [docs](skills/competitor-price-patrol/docs/) |
+| # | 技能 | 能力族 | 复杂度 | 说明文档 |
+|---|------|--------|--------|----------|
+| 1 | 类目属性映射 | 映射与配对 | `M` | [README](skills/category-attribute-mapping/README.md) |
+| 2 | 标题多平台改写 | 上架与标题优化 | `S` | [README](skills/title-multiplatform-rewrite/README.md) |
+| 3 | 库存水位计算 | 测算与评估 | `M` | [README](skills/stock-level-calculate/README.md) |
+| 4 | 超卖预警 | 异动检测与预警 | `S` | [README](skills/oversell-alert/README.md) |
+| 5 | 竞品价格巡检 | 异动检测与预警 | `M` | [README](skills/competitor-price-patrol/README.md) |
 
 ## 工作流清单（5 条）
 
-| # | 工作流 | 阶段 | 复杂度 | 触发 | 定义 | 文档 |
-|---|--------|------|--------|------|------|------|
-| 1 | 一稿多平台 Listing 生成 | `P1` | `M` | 人工 | [SKILL.md](workflows/listing-multiplatform-flow/SKILL.md) | [docs](workflows/listing-multiplatform-flow/docs/) |
-| 2 | 规格/类目映射维护 | `P1` | `S` | 人工（每月） | [SKILL.md](workflows/spec-category-mapping-flow/SKILL.md) | [docs](workflows/spec-category-mapping-flow/docs/) |
-| 3 | 库存同步与超卖预警 | `P1` | `L` | 定时（每 15 分钟） | [SKILL.md](workflows/stock-sync-oversell-alert-flow/SKILL.md) | [docs](workflows/stock-sync-oversell-alert-flow/docs/) |
-| 4 | 竞品价格巡检 | `P1` | `M` | 定时（每日） | [SKILL.md](workflows/competitor-price-patrol-flow/SKILL.md) | [docs](workflows/competitor-price-patrol-flow/docs/) |
-| 5 | 铺货日报生成 | `P2` | `S` | 定时（每日 21:00） | [SKILL.md](workflows/distribution-daily-report-flow/SKILL.md) | [docs](workflows/distribution-daily-report-flow/docs/) |
+| # | 工作流 | 阶段 | 复杂度 | 触发 | 说明文档 |
+|---|--------|------|--------|------|----------|
+| 1 | 一稿多平台 Listing 生成 | `P1` | `M` | 人工 | [README](workflows/listing-multiplatform-flow/README.md) |
+| 2 | 规格/类目映射维护 | `P1` | `S` | 人工（每月） | [README](workflows/spec-category-mapping-flow/README.md) |
+| 3 | 库存同步与超卖预警 | `P1` | `L` | 定时（每 15 分钟） | [README](workflows/stock-sync-oversell-alert-flow/README.md) |
+| 4 | 竞品价格巡检 | `P1` | `M` | 定时（每日） | [README](workflows/competitor-price-patrol-flow/README.md) |
+| 5 | 铺货日报生成 | `P2` | `S` | 定时（每日 21:00） | [README](workflows/distribution-daily-report-flow/README.md) |
 
 ---
 
